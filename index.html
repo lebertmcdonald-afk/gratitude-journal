@@ -1,1 +1,138 @@
-<p>hello world</p>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Signal Wall</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #f4f6f8;
+      margin: 0;
+      padding: 0;
+    }
+
+    header {
+      background-color: #222;
+      color: white;
+      padding: 15px;
+      text-align: center;
+    }
+
+    .container {
+      max-width: 800px;
+      margin: 20px auto;
+      padding: 20px;
+    }
+
+    .form-box {
+      background: white;
+      padding: 15px;
+      border-radius: 10px;
+      margin-bottom: 20px;
+      box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    }
+
+    input, textarea {
+      width: 100%;
+      padding: 10px;
+      margin-top: 10px;
+      border-radius: 5px;
+      border: 1px solid #ccc;
+    }
+
+    button {
+      margin-top: 10px;
+      padding: 10px 15px;
+      border: none;
+      border-radius: 5px;
+      cursor: pointer;
+    }
+
+    .broadcast-btn {
+      background-color: #007bff;
+      color: white;
+    }
+
+    .wall {
+      display: flex;
+      flex-direction: column;
+      gap: 15px;
+    }
+
+    .card {
+      background: white;
+      padding: 15px;
+      border-radius: 10px;
+      box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    }
+
+    .tag {
+      font-weight: bold;
+      color: #007bff;
+    }
+
+    .jump-btn {
+      background-color: #28a745;
+      color: white;
+    }
+  </style>
+</head>
+<body>
+
+<header>
+  <h1>📡 Signal Wall</h1>
+</header>
+
+<div class="container">
+
+  <!-- Learner Input -->
+  <div class="form-box">
+    <h3>Need Help?</h3>
+    <input type="text" id="tagInput" placeholder="Enter Tag (e.g. #React)">
+    <textarea id="questionInput" rows="3" placeholder="Describe your issue..."></textarea>
+    <button class="broadcast-btn" onclick="broadcastSignal()">Broadcast</button>
+  </div>
+
+  <!-- Signal Wall -->
+  <div class="wall" id="signalWall">
+    <!-- Signals appear here -->
+  </div>
+
+</div>
+
+<script>
+  function broadcastSignal() {
+    const tag = document.getElementById("tagInput").value;
+    const question = document.getElementById("questionInput").value;
+
+    if (!tag || !question) {
+      alert("Please fill in both fields.");
+      return;
+    }
+
+    const wall = document.getElementById("signalWall");
+
+    const card = document.createElement("div");
+    card.className = "card";
+
+    card.innerHTML = `
+      <div class="tag">${tag}</div>
+      <p>${question}</p>
+      <button class="jump-btn" onclick="jumpIn(this)">Jump In</button>
+    `;
+
+    wall.prepend(card);
+
+    // Clear inputs
+    document.getElementById("tagInput").value = "";
+    document.getElementById("questionInput").value = "";
+  }
+
+  function jumpIn(button) {
+    button.innerText = "Helping...";
+    button.disabled = true;
+  }
+</script>
+
+</body>
+</html>
