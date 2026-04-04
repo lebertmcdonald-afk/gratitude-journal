@@ -7,3 +7,4 @@ I'm grateful for having a clearer context on how to use a different problem solv
 I'm grateful to have a clearer understanding of frontend HTML
 I'm grateful for completing my first stand alone project.
 I'm grateful to learn how to effectively build a solution using LLM.
+Today I'm thankful to understand the value of Workflow and how it's use to make our daily task more easier. 
