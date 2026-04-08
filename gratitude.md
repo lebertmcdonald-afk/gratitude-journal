@@ -9,3 +9,4 @@ I'm grateful for completing my first stand alone project.
 I'm grateful to learn how to effectively build a solution using LLM.
 Today I'm thankful to understand the value of Workflow and how it's use to make our daily task more easier. 
 I'm grateful to finalize the HTML of the second build project
+I'm grateful to finish my second build 
