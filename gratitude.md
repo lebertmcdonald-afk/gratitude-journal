@@ -11,3 +11,4 @@ Today I'm thankful to understand the value of Workflow and how it's use to make 
 I'm grateful to finalize the HTML of the second build project
 I'm grateful to finish my second build
 I'm grateful to finalize my presentation. 
+I'm grateful to understand how data works.
