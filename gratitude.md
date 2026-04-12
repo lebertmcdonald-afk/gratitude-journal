@@ -12,3 +12,4 @@ I'm grateful to finalize the HTML of the second build project
 I'm grateful to finish my second build
 I'm grateful to finalize my presentation. 
 I'm grateful to understand how data works.
+I'm grateful to understand how valuable data is to businesses
