@@ -13,3 +13,4 @@ I'm grateful to finish my second build
 I'm grateful to finalize my presentation. 
 I'm grateful to understand how data works.
 I'm grateful to understand how valuable data is to businesses
+I'm gratful to add my data schema to my website to showcase my MVP
