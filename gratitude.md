@@ -14,3 +14,4 @@ I'm grateful to finalize my presentation.
 I'm grateful to understand how data works.
 I'm grateful to understand how valuable data is to businesses
 I'm gratful to add my data schema to my website to showcase my MVP
+I'm grateful to understand the competitive advantage of the product I've create
