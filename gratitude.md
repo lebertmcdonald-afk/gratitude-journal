@@ -17,3 +17,4 @@ I'm gratful to add my data schema to my website to showcase my MVP
 I'm grateful to understand the competitive advantage of the product I've create
 I'm grateful to present my web application to the world so they can experience the making good vegetarian food based on the ingredients they have in their home.
 I'm grateful to understand the difference between UXand UI and how it can be simplified for the end user.
+I'm greateful to create my UI/UX built by changing the interface for Crunchyroll
