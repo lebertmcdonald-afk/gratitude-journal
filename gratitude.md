@@ -19,3 +19,4 @@ I'm grateful to present my web application to the world so they can experience t
 I'm grateful to understand the difference between UXand UI and how it can be simplified for the end user.
 I'm greateful to create my UI/UX built by changing the interface for Crunchyroll
 I'm grateful to complete my 2 frames in Figma
+I'm grateful to acquire the feedback from my program manager on the user interface of my project
