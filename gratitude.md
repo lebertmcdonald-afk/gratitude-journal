@@ -22,3 +22,4 @@ I'm grateful to complete my 2 frames in Figma
 I'm grateful to acquire the feedback from my program manager on the user interface of my project
 I'm grateful to finush my first Ui/Ux design on figma
 I'm grateful to fully under the process of Quality Assurance testing, debugging, and troubleshooting and would implement this same strategy when building out my own application
+I'm grateful to learn how to scope out my final project built.
