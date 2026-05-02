@@ -24,3 +24,4 @@ I'm grateful to finush my first Ui/Ux design on figma
 I'm grateful to fully under the process of Quality Assurance testing, debugging, and troubleshooting and would implement this same strategy when building out my own application
 I'm grateful to learn how to scope out my final project built.
 I'm grateful to learn the automated testing fundamentals
+I'm grateful to work on my demo presentation which made me more prepared for wednesday presentation. 
