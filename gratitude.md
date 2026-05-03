@@ -25,3 +25,4 @@ I'm grateful to fully under the process of Quality Assurance testing, debugging,
 I'm grateful to learn how to scope out my final project built.
 I'm grateful to learn the automated testing fundamentals
 I'm grateful to work on my demo presentation which made me more prepared for wednesday presentation. 
+I'm grateful have my demo product completed and enhanced
